@@ -1,0 +1,217 @@
+/* *{
+    color: rgb(247, 242, 242);
+} */
+
+.profile{
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y:hidden;
+}
+
+.toggle-btn{
+    z-index: 9998;
+}
+
+.border-6{
+    border-radius: 50%;
+    border: 8px solid gray;
+}
+
+.social-links a{
+    display: flex;
+    background-color: #2C2F3F;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    transition:ease-in 0.1s;
+    
+}
+
+
+
+.link-list li:hover{
+    color: white;
+}
+.link-list li:hover i{
+    color: #149DDD;
+}
+.social-links a:hover{
+    background-color: #149DDD;
+}
+
+.toggle-btn{
+    background-color: #149DDD;
+}
+
+
+
+.main{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(pavan\ picWithBCADegree.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    z-index: -1;
+    
+
+}
+.bg-color{
+    max-width: 100%;
+    height: 100%;
+    
+    background-color: #0000008b;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+
+/* CSS for laptop screen */
+@media screen and (min-width: 992px) {
+    #main{
+        margin-left: 400px;
+    }
+}
+
+
+
+
+
+
+
+.selection-title h2::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #149DDD;
+    position: absolute;
+    display: block;
+    
+}
+
+.skill-section{
+    background-color: #149ddd0c;
+    padding-bottom: 20px;
+}
+
+.progress{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.177);
+    border-radius: 0%;
+}
+
+.pro-line-1{
+    width: 100%;
+    background-color: #149DDD;
+    border-radius: 0%;
+    transition: all ease 0.5s;
+}
+.pro-line-2{
+    width: 75%;
+    background-color: #149DDD;
+    border-radius: 0%;
+}
+.pro-line-3{
+    width: 90%;
+    background-color: #149DDD;
+    border-radius: 0%;
+}
+.pro-line-4{
+    width: 80%;
+    background-color: #149DDD;
+    border-radius: 0%;
+}
+.pro-line-5{
+    width: 85%;
+    background-color: #149DDD;
+    border-radius: 0%;
+}
+.pro-line-6{
+    width: 95%;
+    background-color: #149DDD;
+    border-radius: 0%;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+.skill p{
+    font-size: 15px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+.fields h4::before{
+    content:""; 
+    position: absolute;
+    left: -40px;
+    top: 9px;
+    height:17px;   
+    width: 17px;
+    border: 2px solid rgb(31, 82, 151);;
+    border-radius: 50%;
+
+}
+
+.bachelor h4::before{
+    content:""; 
+    position: absolute;
+    left: -40px;
+    top: 173px;
+    height:17px;   
+    width: 17px;
+    background-color: #fff;
+    border: 2px solid rgb(31, 82, 151);;
+    border-radius: 50%;
+}
+ .fields::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 25px;
+    left: -32px;
+    border-left: 2px solid rgb(31, 82, 151);;
+
+}
+
+.skill p span{
+    float: right;
+}
+
+.years{
+    background-color: #149ddd2d;
+    border-radius: 4px;
+    padding: 3px 12px;
+
+}
+
+.service-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #149DDD;
+    border: 1px solid #149DDD;
+    transition: all ease 0.8s;
+}
+.service-icon:hover{
+    color: #149DDD;
+    background-color: #fff;
+}
